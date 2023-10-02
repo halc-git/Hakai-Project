@@ -1,5 +1,5 @@
 # Hakai-Project
-yukicoder No.10214 の各種ツールです。
+[yukicoder No.10214](https://yukicoder.me/problems/10214)の各種ツールです。
 
 ## generator
 正しい入力を生成します。
