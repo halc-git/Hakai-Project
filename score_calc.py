@@ -61,5 +61,5 @@ score=0
 if ok==0:
     score=1
 else:
-    score=max(10,1000000000000/(1000000+cost))
+    score=max(10,1000000000000/(10000+cost))
 print("score:"+str(int(score))+"(cost:"+str(cost)+")")
