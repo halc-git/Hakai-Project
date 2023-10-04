@@ -69,7 +69,7 @@ score=0
 if ok==0:
     score=1
 else:
-    score=max(10,1000000000000/(1000000+cost))
+    score=max(10,1000000000000/(10000+cost))
 print(int(score),file=score_file)
 input_file.close()
 score_file.close()
