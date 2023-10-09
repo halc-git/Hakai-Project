@@ -169,9 +169,9 @@ def main():
         if bef[pygame.K_p] and not(key[pygame.K_p]):
             pause=1-pause
         if bef[pygame.K_LEFT] and not(key[pygame.K_LEFT]):
-            turn=(turn-1)%Q
+            turn=(turn-1)%(Q+1)
         if bef[pygame.K_RIGHT] and not(key[pygame.K_RIGHT]):
-            turn=(turn+1)%Q
+            turn=(turn+1)%(Q+1)
         txt=font.render(["Low","Medium","Fast"][speed],True,(255,255,255))
         screen.blit(txt,[100,(high-765)-140])
         txt=font.render(["Pause","Play"][pause],True,(255,255,255))
