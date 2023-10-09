@@ -78,7 +78,7 @@ def main():
     font=pygame.font.Font(None,40)
     turn=0
     speed=1
-    pause=1
+    pause=0
     bef=pygame.key.get_pressed()
     while True:
         key=pygame.key.get_pressed()
