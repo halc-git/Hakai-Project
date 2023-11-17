@@ -11,6 +11,7 @@ int main(){
     vector<pair<int,vector<pair<int,int>>>> bomb(M);
     for(int i=0; i<M; i++){
         int C,L;
+        cin>>C>>L;
         bomb[i].first=C;
         for(int j=0; j<L; j++){
             int a,b;
